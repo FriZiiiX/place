@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         ForsenPlace Script (Modified by YisusOnDev for esPlace)
-// @namespace    https://github.com/YisusOnDev/esplace-war
+// @namespace    https://github.com/FriZiiiX/place
 // @version      16
 // @description  Script 
 // @author       ForsenPlace
@@ -9,15 +9,15 @@
 // @icon         https://cdn.frankerfacez.com/emoticon/545961/4
 // @require	     https://cdn.jsdelivr.net/npm/toastify-js
 // @resource     TOASTIFY_CSS https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css
-// @updateURL    https://github.com/YisusOnDev/esplace-war/raw/main/script.user.js
-// @downloadURL  https://github.com/YisusOnDev/esplace-war/main/script.user.js
+// @updateURL    https://github.com/FriZiiiX/place/raw/main/script.user.js
+// @downloadURL  https://github.com/FriZiiiX/place/blob/main/script.user.js
 // @grant        GM_getResourceText
 // @grant        GM_addStyle
 // @grant GM.xmlHttpRequest
 // @connect reddit.com
 // ==/UserScript==
 
-const ORDERS_URL = 'https://raw.githubusercontent.com/YisusOnDev/esplace-war/main/orders.json'
+const ORDERS_URL = 'https://github.com/FriZiiiX/place/blob/main/orders.json'
 
 const ORDER_UPDATE_DELAY = 4 * 60 * 1000
 const TOAST_DURATION = 10 * 1000
